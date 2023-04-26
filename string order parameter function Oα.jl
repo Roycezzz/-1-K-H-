@@ -4,7 +4,7 @@ using ITensors.HDF5
 using DelimitedFiles
 cd("E:/本科学校文件/毕业设计/毕设数据/关联函数/MPS态")
 
-  N = 60             #系统的格点数
+  N = 100             #系统的格点数
   sites = siteinds("S=1",N)     #生成一组ITensor指标对象，数量为N，特性为自旋1
   K = 1                #哈密顿量中的Kitaev项的系数
   J = 0.25             #哈密顿量中的Heisenberg项的系数
